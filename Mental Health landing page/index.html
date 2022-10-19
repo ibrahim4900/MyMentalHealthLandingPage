@@ -1,0 +1,52 @@
+ <html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Health Landing Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="hero">
+         <nav>
+             <img src="images/menu.png" class="menu-img">
+             <img src="images/Working With The Mind.mp4" class="logo" width="150" height="150">
+             <Ul>
+                  <li><a href="https://www.mindwise.org/blog/mental-health/a-critical-look-at-mens-mental-health/">Mental Health Info</a></li>
+                  <li><a href="https://www.menshealth.com/health/g38393341/best-mental-health-books/">BOOKS</a></li>
+                  <li><a href="https://khalilcenter.com/mental-health-service-landing-page/">GET HELP</a></li>
+             </Ul>
+             <button type="button" onclick="toggleBtn()" id="btn"><span></span></button>
+         </nav> 
+         
+         <div class="lamp-container">
+            <img src="images/lamp.png" class="lamp">
+            <img src="images/light.png" class="light" id="light">
+         </div>
+
+
+         <div class="text-container">
+         <h1>Working With<br>The Mind</h1>
+         <p>A website that is dedicated to all Men who struggle with any type of mental health issues, You are not alone in this fight and you never will be, We are in this together!!<br><br>It is exhausting trying to be a man enough for everyone, all the time - Justin Baldoni
+         </p>
+         <a href="">SPEAK YOUR MIND KING</a>
+         <div class="control">
+             <p>01</p>
+             <div class="line"><span></span></div>
+             <p>05</p>
+         </div>
+    </div>
+    
+
+
+
+
+    <script>
+        var btn = document.getElementById("btn");
+        var light = document.getElementById("light");
+
+        function toggleBtn(){
+            btn.classList.toggle("active")
+           light.classList.toggle("on")
+        }
+    </script>
+</body>
+</html>
